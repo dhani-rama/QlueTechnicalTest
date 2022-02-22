@@ -14,7 +14,7 @@ private fun answerB()
     val secondArray = intArrayOf(1,2,3,4,5,6)
     for (i in secondArray.indices)
     {
-        var list = secondArray[i] * secondArray[secondArray.size-(i+1)]
+        val list = secondArray[i] * secondArray[secondArray.size - (i + 1)]
         print(list)
     }
 }
@@ -27,12 +27,12 @@ private fun answerC()
     {
         if(i % 2 != 0)
         {
-            var ganjil = thirdArray[i] - thirdArray[i+1]
+            val ganjil = thirdArray[i] - thirdArray[i + 1]
             print(ganjil)
         }
         else
         {
-            var genap = thirdArray[i] + thirdArray[i+1]
+            val genap = thirdArray[i] + thirdArray[i + 1]
             print(genap)
         }
     }
